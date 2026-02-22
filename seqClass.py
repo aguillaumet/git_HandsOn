@@ -1,7 +1,7 @@
 import sys, re
 from argparse import ArgumentParser
 
-parser = ArgumentParser(description = 'Classify a sequence as DNA or RNA')
+parser = ArgumentParser(description = 'My sequence classifier script')
 parser.add_argument("-s", "--seq", type = str, required = True, help = "Input sequence")
 parser.add_argument("-m", "--motif", type = str, required = False, help = "Motif")
 
